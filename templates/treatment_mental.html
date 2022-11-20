@@ -1,0 +1,47 @@
+<head>
+    <title>Curatio - Mental Treatment</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/physical.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">CURATIO</div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="box">
+            <div class="consult">
+                <a href="consult">Contact a general practitioner RIGHT NOW</a>
+            </div>
+        </div>
+
+        <br><span style="text-align: center;">or</span><br><br>
+
+
+        <div class="box">
+            <h2>Answer the following questions to better identify your condition</h2>
+            <form action="/search" method="post">
+
+                <!--<h2>Extra notes to the doctor</h2>-->
+                <div>              
+                    <label for="notes">What is the problem from your point of view?</label>
+                    <input name="one" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                    <label for="notes">How does this problem typically make you feel?</label>
+                    <input name="two" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                    <label for="notes">What makes the problem better?</label>
+                    <input name="three" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                    <label for="notes">Overall, how would you describe your mood?</label>
+                    <input name="four" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                    <label for="notes">How connected do you feel to the people around you?</label>
+                    <input name="four" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                    <label for="notes">What positive changes do you want to make in your life?</label>
+                    <input name="four" id="notes" type="text" placeholder="Answer..."></input><br><br>
+                         
+                    <button type="submit" value="search">CONSULT</button>
+
+                </div>
+            </form>
+        </div>
+        <br><br><br>
+    </div>
+</body>
