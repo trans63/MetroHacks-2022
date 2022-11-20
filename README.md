@@ -1,5 +1,5 @@
 # Curatio
-A solution to contact free healthcare for The Square Small Business Hackathon
+A solution to contact free healthcare for Metro Hacks 2022
 
 ![alt text](https://user-images.githubusercontent.com/93969295/202902410-21acfb9f-de4d-4e4b-9892-2c9fd99ba7a2.jpg)
 
