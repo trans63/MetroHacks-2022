@@ -33,3 +33,23 @@ We are proud of what we have built so far and believe that it is a well thought 
 
 ## What's next for Curatio
 We hope to build it into an even more well designed and full of features webapp that can help both doctors and patients during this time of social distancing.
+
+## RUNNING THE WEBAPP:
+
+** The computer needs to have Python and pip installed **
+
+1) First we need to create a virtual environment by opening a terminal and directing it to the directory of the app.
+2) We then run "pipenv update" to get the the necessary dependencies installed.
+2) Then we can run "pipenv flask run"
+3) Run "npm start" on a separate terminal that is redirected to "Curatio/Video Module"
+4) Run /misc/remove_doctor_db.py to clear all "customers" data
+
+
+## DEPENDEINCEIS USED:
+
+1) pipenv
+2) flask
+3) flask_googlemaps
+4) googleplaces
+5) ipinfo
+6) squareup
